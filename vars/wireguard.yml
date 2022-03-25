@@ -42,7 +42,7 @@ vpn:
     public_key: w1Ad9aSHDBRVXltiUnLjNVDyPaQ1J0yOfxhCEntqz0Q=
 peer_vpn:
 - name: zby
-# endpoint: sys.vpn.zby.icdc.io:2200
+  endpoint: sys.vpn.zby.icdc.io:2200
   public_key: 8ObCL7wZbeJJPZsexTo5Bz6wpzlQgReiEKz9AHddjgo=
   ip: 10.254.64.71/24
   subnets:
