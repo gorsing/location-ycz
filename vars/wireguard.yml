@@ -1,0 +1,146 @@
+# YCZ, hex_code: 12, dec_code: 18
+# Required for client-auto-config
+location: ycz
+public_key: frbYCnZ6RBbgBMNd3qcFJVlsQOSc7NdizRHZRVSomDI=
+# VPN server config
+account: sys
+vpn:
+- name: icdc
+  port: 2200
+  ip: 10.253.18.1/24
+  devices:
+  - num: 2
+    name: dsatsura@ibagroup.eu notebook
+    public_key: CgmnYEVMz4SLOWegz6U9BwAytJQHVQLaAlrrWIM4exE=
+  - num: 3
+    name: dmemekh workstation
+    public_key: q0I8FAzcC+xXaqC6AF56B6FCg5NwiMwh30Fql+XJDT8=
+  - num: 4
+    name: dsatsura@ibagroup.eu workstation
+    public_key: TDtAA+dyR76RsRuMghFqI2cFsVniL+mnck1VfOhKXxM=
+  - num: 5
+    name: dmemekh notebook
+    public_key: mbtCszp4v/d+Uz0RExGGR69UnYQY4ascyPmI9zrsrgg=
+  - num: 6
+    name: ahrechushkin notebook
+    public_key: xByJBjRNmGVfgBlrBswlN89+NClmQ2b8kookwOQUyD0=
+  - num: 7
+    name: skuzko notebook
+    public_key: YNcpPcKq2UOK9D6L8PJLaUBLpqRrm3Y28M57pC77WhU=
+  - num: 8
+    name: dmemekh okd-setup
+    public_key: Wd5UPiUGEkP/pE6Wdth9/ZhqsBe73GCKazhh0fxzZl4=
+  - num: 9
+    name: iarystau notebook
+    public_key: 05MS3nc46SbIKBzB8fW8JagqziZkjWV4LoBHY51uF0Q=
+- name: team
+  port: 2201
+  ip: 10.254.18.1/25
+  devices:
+  - num: 2
+    name: nobody
+    public_key: w1Ad9aSHDBRVXltiUnLjNVDyPaQ1J0yOfxhCEntqz0Q=
+peer_vpn:
+- name: zby
+# endpoint: sys.vpn.zby.icdc.io:2200
+  public_key: 8ObCL7wZbeJJPZsexTo5Bz6wpzlQgReiEKz9AHddjgo=
+  ip: 10.254.64.71/24
+  subnets:
+  - 10.253.38.0/24
+# NAT for Location resources
+nat:
+  subnet: 10.253.18.128/25
+  map:
+  - num: 2
+    toaddr: 10.254.1.20
+    host: engine-ovirt
+  - num: 3
+    toaddr: 10.254.1.11
+    host: ceph01
+  - num: 4
+    toaddr: 10.254.1.12
+    host: ceph02
+  - num: 5
+    toaddr: 10.254.1.13
+    host: ceph03
+  - num: 6
+    toaddr: 10.254.1.14
+    host: ceph04
+  - num: 7
+    toaddr: 10.254.1.15
+    host: ceph05
+  - num: 8
+    toaddr: 10.254.1.31
+    host: ceph06
+  - num: 9
+    toaddr: 10.254.1.32
+    host: ceph07
+  - num: 10
+    toaddr: 10.254.1.33
+    host: ceph08
+  - num: 11
+    toaddr: 10.254.1.34
+    host: ceph09
+  - num: 12
+    toaddr: 10.254.1.35
+    host: ceph10
+  - num: 13
+    toaddr: 10.254.1.21
+    host: ovih01
+  - num: 14
+    toaddr: 10.254.1.22
+    host: ovih02
+  - num: 15
+    toaddr: 10.254.1.23
+    host: ovih03
+  - num: 16
+    toaddr: 10.254.1.24
+    host: ovih04
+  - num: 17
+    toaddr: 10.254.1.25
+    host: ovih05
+  - num: 18
+    toaddr: 10.254.20.2
+    host: infra-1
+  - num: 19
+    toaddr: 10.254.20.3
+    host: infra-2
+  - num: 20
+    toaddr: 10.254.20.4
+    host: infra-3
+  - num: 21
+    toaddr: 198.18.0.5
+    host: cloudgw
+  - num: 22
+    toaddr: 198.18.0.7
+    host: okd-setup
+  - num: 23
+    toaddr: 10.254.28.10
+    host: openshift-sys
+  - num: 24
+    toaddr: 10.254.20.9
+    host: zabbix
+  - num: 25
+    toaddr: 10.254.20.6
+    host: logs
+  - num: 26
+    toaddr: 10.254.20.7
+    host: code
+  - num: 41
+    toaddr: 10.254.4.21
+    host: ovih01-display
+  - num: 42
+    toaddr: 10.254.4.22
+    host: ovih02-display
+  - num: 43
+    toaddr: 10.254.4.23
+    host: ovih03-display
+  - num: 44
+    toaddr: 10.254.4.24
+    host: ovih04-display
+  - num: 45
+    toaddr: 10.254.4.25
+    host: ovih05-display
+  - num: 50
+    toaddr: 198.18.0.6
+    # host: test-no-host-name
