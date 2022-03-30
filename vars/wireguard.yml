@@ -47,6 +47,11 @@ peer_vpn:
   ip: 10.254.64.71/24
   subnets:
   - 10.253.38.0/24
+- name: xby
+  endpoint: 178.172.238.197:22001
+  public_key: FGRvMWwUcAqD2LdSN4rVKz6t+b5ukbDVL4H+yq7gPRM=
+  ip: 10.254.64.82/24
+  subnets: []
 # NAT for Location resources
 nat:
   subnet: 10.253.18.128/25
