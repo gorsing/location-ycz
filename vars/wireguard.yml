@@ -33,6 +33,9 @@ vpn:
   - num: 9
     name: iarystau notebook
     public_key: 05MS3nc46SbIKBzB8fW8JagqziZkjWV4LoBHY51uF0Q=
+  - num: 10
+    name: XBY peer location
+    public_key: FGRvMWwUcAqD2LdSN4rVKz6t+b5ukbDVL4H+yq7gPRM=
 - name: team
   port: 2201
   ip: 10.254.18.1/25
