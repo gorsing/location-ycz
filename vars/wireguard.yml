@@ -127,7 +127,7 @@ nat:
     host: openshift-sys
   - num: 24
     toaddr: 10.254.20.9
-    host: zabbix
+    host: export
   - num: 25
     toaddr: 10.254.20.6
     host: logs
