@@ -41,8 +41,8 @@ vpn:
   ip: 10.254.18.1/25
   devices:
   - num: 2
-    name: nobody
-    public_key: w1Ad9aSHDBRVXltiUnLjNVDyPaQ1J0yOfxhCEntqz0Q=
+    name: danikeev workstation
+    public_key: OWo1LtgaCHshGhxqzDPLAjKE/U/BUlN360KJbi73by8=
 peer_vpn:
 - name: zby
   endpoint: sys.vpn.zby.icdc.io:2200
