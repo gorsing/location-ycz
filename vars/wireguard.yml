@@ -126,13 +126,19 @@ nat:
     toaddr: 10.254.28.10
     host: openshift-sys
   - num: 24
-    toaddr: 10.254.20.9
+    toaddr: 10.254.20.6
     host: export
   - num: 25
-    toaddr: 10.254.20.6
+    toaddr: 10.254.20.7
     host: logs
   - num: 26
-    toaddr: 10.254.20.7
+    toaddr: 10.254.20.8
+    host: disk
+  - num: 27
+    toaddr: 10.254.20.9
+    host: zabbix
+  - num: 28
+    toaddr: 10.254.20.10
     host: code
   - num: 41
     toaddr: 10.254.4.21
