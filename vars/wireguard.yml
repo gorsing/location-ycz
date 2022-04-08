@@ -36,6 +36,9 @@ vpn:
   - num: 10
     name: XBY peer location
     public_key: FGRvMWwUcAqD2LdSN4rVKz6t+b5ukbDVL4H+yq7gPRM=
+  - num: 11
+    name: YCZ Compute lab
+    public_key: ay+8x35P6XBRWmK5WkrQ7c+Yqpi6Kn3YmaMzh7znhS4= 
 - name: team
   port: 2201
   ip: 10.254.18.1/25
