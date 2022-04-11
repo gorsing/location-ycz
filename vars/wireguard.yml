@@ -38,7 +38,10 @@ vpn:
     public_key: FGRvMWwUcAqD2LdSN4rVKz6t+b5ukbDVL4H+yq7gPRM=
   - num: 11
     name: YCZ Compute lab
-    public_key: ay+8x35P6XBRWmK5WkrQ7c+Yqpi6Kn3YmaMzh7znhS4= 
+    public_key: ay+8x35P6XBRWmK5WkrQ7c+Yqpi6Kn3YmaMzh7znhS4=
+  - num: 12
+    name: dramanouski@ibagroup.eu workstation
+    public_key: MxRZljSM+rXsbdtEd+IwiGOhPNuC41B9HSeIyUtGPjQ=
 - name: team
   port: 2201
   ip: 10.254.18.1/25
