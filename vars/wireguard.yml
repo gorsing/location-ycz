@@ -42,6 +42,9 @@ vpn:
   - num: 12
     name: dramanouski@ibagroup.eu workstation
     public_key: MxRZljSM+rXsbdtEd+IwiGOhPNuC41B9HSeIyUtGPjQ=
+  - num: 13
+    name: dsakovich@ibagroup.eu notebook
+    public_key: PALmuTDJ8pMeN8G7LaRJkI3IPp3G8bVIGQxmoklLAXQ=
 - name: team
   port: 2201
   ip: 10.254.18.1/25
