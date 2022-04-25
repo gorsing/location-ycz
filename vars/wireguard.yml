@@ -52,6 +52,12 @@ vpn:
   - num: 2
     name: danikeev workstation
     public_key: OWo1LtgaCHshGhxqzDPLAjKE/U/BUlN360KJbi73by8=
+  - num: 3
+    name: vsychou workstation
+    public_key: 1sjYQJ7TWUlZ5lkTHXR+wT/ynXHZjfx84oAbqdjv/mI=
+  - num: 4
+    name: vsychou homestation
+    public_key: xg0vTOoPyIIFA/W6Ds0CzzbnUBWxOo+63uvc92otzSk=
 peer_vpn:
 - name: zby
   endpoint: sys.vpn.zby.icdc.io:2200
