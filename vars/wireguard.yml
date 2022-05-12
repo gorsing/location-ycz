@@ -45,6 +45,9 @@ vpn:
   - num: 13
     name: dsakovich@ibagroup.eu notebook
     public_key: PALmuTDJ8pMeN8G7LaRJkI3IPp3G8bVIGQxmoklLAXQ=
+  - num: 14
+    name: ilezhapekau@ibagroup.eu
+    public_key: 1FUKKZGd9OGQaRMXY5XycDWFXWwVsq1PJvrFfBBLOjw=
 - name: team
   port: 2201
   ip: 10.254.18.1/25
