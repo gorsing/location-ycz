@@ -48,6 +48,9 @@ vpn:
   - num: 14
     name: ilezhapekau@ibagroup.eu
     public_key: 1FUKKZGd9OGQaRMXY5XycDWFXWwVsq1PJvrFfBBLOjw=
+  - num: 15
+    name: YDavidouski@ibagroup.eu
+    public_key: MrX/BQd3szn4L0VVrj3cDfq7gsVG4nbjZ21DJvFHBzI=
 - name: team
   port: 2201
   ip: 10.254.18.1/25
