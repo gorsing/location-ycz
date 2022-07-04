@@ -54,6 +54,9 @@ vpn:
   - num: 16
     name: mmarchanka@ibagroup.eu
     public_key: 2QROAWTG1+FfAM653mpUs5ydGmmwA6tFjRjSju1gF1I=
+  - num: 17
+    name: ahrechushkin workstation
+    public_key: 9b3Ou9lXROVXBkuYIxlEfCsu+5XpuPEi1wXW74+4yxw=
 - name: team
   port: 2201
   ip: 10.254.18.1/25
