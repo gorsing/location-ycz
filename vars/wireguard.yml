@@ -77,8 +77,11 @@ vpn:
     name: isiliava workstation
     public_key: HCXr7FWHuTmCK38/Ckdvftdz0Q/vGDG46IlLVEr5jnw=
   - num: 6
-    name: asavenia workstation
+    name: asavenia workstation at home
     public_key: htQAuD6arPxNTDQOvtOGRkEDT13ZmzBRX66dK6a7C0Q=
+  - num: 7
+    name: asavenia workstation at office
+    public_key: IR9x9Ww/EgIR+pQaDrGXCb0dmVMIFtGAzeyItLN8BTw=
 peer_vpn:
 - name: zby
   endpoint: sys.vpn.zby.icdc.io:2200
