@@ -174,7 +174,7 @@ nat:
     toaddr: 10.254.20.8
     host: disk
   - num: 27
-    toaddr: 10.254.20.9
+    toaddr: 10.254.20.16
     host: zabbix
   - num: 28
     toaddr: 10.254.20.10
